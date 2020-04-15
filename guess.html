@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="guess.css">
+    <link rel="shortcut icon" href="ct3.jpg" type="image/x-icon">
+    <script src="guess.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Guess the number</title>
+</head>
+<body onload="init()">
+    <div id="parent">
+        <section class="top">
+            <h1>I have a random  number between 1-200</h1>
+            <h3>Dare to guess?</h3>
+            <button id="newgame" onclick="newGame()">New Game</button>
+            <div><h5>Select difficulity Level</h5></div>
+            <div><button class="" id="easybtn"  onclick="easymode()">Easy Mode👶 10 attempts (default)</button></div>
+            <div><button class="" id="medbtn" onclick="medmode()">Medium Mode😓 7 attempts</button></div>
+            <div><button class="" id="hardbtn" onclick="hardmode()">Hard Mode😵 5 attempts</button></div>
+            <div><button class="" id="demibtn" onclick="Demimode()">Demi-god🙌🔱 ⚜️ Mode 2 attempts</button></div>
+        </section>
+        <section class="center">
+            <h2 id="output">Enter your guess below & press enter</h2>
+            <input type="number" id="inputBox" onchange="compareGuess()" autocomplete="none">
+            <h5>Number of previous  attempts: <span id="attempts"></span></h5>
+        </section>
+        <section class="bottom">
+            <h5>Your previous guesses: <span id="guesses"></span></h5>
+        </section>
+    </div>
+    <footer>Created by Favourene Osas😎</footer>
+    
+</body>
+</html>

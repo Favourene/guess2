@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(ct3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#parent{
+    text-align: center;
+    background: rgb(124, 55, 55);
+    height: 100%;
+    width: 80%;
+    margin-left: 130px;
+    border-radius: 30px;
+    
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 30px;
+}
+h3{
+    font-size: 30px;
+    border-bottom: 2px solid grey;
+    padding-bottom: 10px;
+}
+button{
+    margin-top: 20px;
+    padding: 10px 80px 10px 80px;
+    border-radius: 15px;
+    background-color: rgb(9, 53, 9);
+    color: white;
+}
+.activeButton{
+    background: rgb(23, 190, 23);
+    color: white;
+}
+input{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 10px;
+}
+h5{
+    margin-top: 4px;
+    font-size: 20px;
+}
+.top{
+    margin-bottom: 30px;
+    
+}
+.center{
+    margin-bottom: 30px;
+    border-bottom: 2px solid grey;
+    padding-bottom: 20px;
+}
+@media screen and (max-width:1000px){
+    h1{
+        font-size: 40px;
+    }
+    #parent{
+    width: 100%;
+    margin-left: 0px;
+    margin-bottom: 50px;
+    height: 120%;
+    margin-top: 30px;
+    }
+}
