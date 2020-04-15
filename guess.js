@@ -69,22 +69,22 @@ function compareGuess(){
             document.getElementById('output').innerHTML="Your Guess is too low";
             document.getElementById('inputBox').value = "";// each time a value is inputed and value is too low, the  input value resets to an empty character
         }else {
-            document.getElementById('output').innerHTML="You WIN! You got it in" + " "+ attempts+" "+ 'attempts'; // the user how many tries they got the answer in
+            document.getElementById('output').innerHTML="You WIN 🔥🏆 🥇! You got it in" + " "+ attempts+" "+ 'attempts'; // the user how many tries they got the answer in
             document.getElementById('parent').style.backgroundColor='darkgreen';
             endofgame(); // brings the game to an end
         }
     }else{
         if(userinput > guesswork){ // If  the  user input  is greater  than the guesswork ouput is you lose
-            document.getElementById('output').innerHTML="You lose!" + '<br> the number was ' + guesswork;
+            document.getElementById('output').innerHTML="You lose💔😓!" + '<br> the number was ' + guesswork;
             document.getElementById('parent').style.backgroundColor='darkred';
             endofgame();// brings the game to an end
   
         }else if (userinput < guesswork){ // If  the  user input  is greater  than the guesswork ouput is you lose
-            document.getElementById('output').innerHTML="You lose!" + '<br> the number was ' + guesswork;
+            document.getElementById('output').innerHTML="You lose💔😓!"+ '<br> the number was ' + guesswork;
             document.getElementById('parent').style.backgroundColor='darkred';
             endofgame();// brings the game to an end
         }else{
-            document.getElementById('output').innerHTML="You WIN! You got it in" + " "+ attempts+" "+ 'attempts'; // the user how many tries they got the answer in
+            document.getElementById('output').innerHTML="You WIN 🔥🏆 🥇! You got it in" + " "+ attempts+" "+ 'attempts'; // the user how many tries they got the answer in
             document.getElementById('parent').style.backgroundColor='darkgreen';
             endofgame();// brings the game to an end
 
