@@ -72,3 +72,8 @@ h5{
     margin-top: 30px;
     }
 }
+@media screen and (max-width:360px){
+    #parent{
+        height:150vh;
+    }
+}
