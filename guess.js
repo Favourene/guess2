@@ -27,7 +27,7 @@ function endofgame(){ //the allows the difficulty button to disappear and allow 
         document.getElementById('demibtn').className = '';
     }
     function hardmode(){//  max guesses allowed for   hard  mode
-        maxguesses = 5;
+        maxguesses = 3;
         document.getElementById('hardbtn').className = 'activeButton'
         document.getElementById('medbtn').className = '';
         document.getElementById('easybtn').className = '';
